@@ -2,7 +2,6 @@ import {BrowserRouter, Routes, Route,} from 'react-router-dom'
 import Home from './components/pages/Home'
 import NewProject from './components/pages/NewProject'
 import Projects from './components/pages/Projects'
-
 import Container from './components/layout/Container'
 import Navbar from './components/layout/Navbar'
 
