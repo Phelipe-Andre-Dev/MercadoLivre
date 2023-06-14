@@ -1,0 +1,13 @@
+.bnt{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.5em 1em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bnt:hover{
+    color: yellow;
+}
