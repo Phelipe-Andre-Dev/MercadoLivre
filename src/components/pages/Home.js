@@ -7,7 +7,7 @@ function Home(){
         <section className={styles.container}>
             <h1 className={styles.h1}>Bem-vindo ao Gerenciador <span className={styles.h1_span}>Financeiro</span></h1>
             <p className={styles.p}>Comece a gerenciar seus projetos agora mesmo!</p>
-            <LinkButton to='/newproject' text='Criar Projeto'/>
+            <LinkButton to='/projects' text='Criar Projeto'/>
             <img  className={styles.saivings}  to='/' src={saivings} alt='costs'></img>
         </section>
 
