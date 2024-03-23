@@ -1,29 +1,22 @@
-import {BrowserRouter, Routes, Route,} from 'react-router-dom'
-import Home from './components/pages/Home'
-import Projects from './components/pages/Projects'
-import Container from './components/layout/Container'
-import Navbar from './components/layout/Navbar'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home';
+import Produtos from './components/Produtos';
+import Nav from './pages/Nav';
 
-function App(){
-  return(
 
-    <BrowserRouter>
-      <Navbar/>
-      <Container customClass='min-height'>
-        <Routes>
-          <Route exact path='/' element={<Home/>}/>
-        </Routes>
 
-       
-        <Routes>
-          <Route exact path='projects' element={<Projects/>}/>
-        </Routes>
+function App (){
+    return(
+        <BrowserRouter>
+        <Nav/>
+            <Routes>
+                <Route path='Home' element={<Home/>}/>
+            </Routes>
 
-      </Container>
-      
-    </BrowserRouter>
-    
-    
-  )
+            <Routes>
+                <Route path='Produtos' element={<Produtos/>}/>
+            </Routes>
+        </BrowserRouter>
+    )
 }
-export default App
+export default App;

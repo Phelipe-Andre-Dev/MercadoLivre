@@ -1,0 +1,25 @@
+.h1{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.link{
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: rgb(22, 187, 22);
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    margin: 0 auto;
+    height: 50px;
+
+    
+    
+}
+
+.link:hover{
+    background-color: rgb(51, 247, 51);
+}
