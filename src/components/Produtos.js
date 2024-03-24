@@ -1,16 +1,15 @@
-import React, {useState, useEffect} from 'react'
+import React, { useEffect, useContext} from 'react'
 import Api from './Api';
 import CardProdutos from './CardProdutos'
 import styles from './Produtos.module.css'
 import Load from './Load'
+import AppContext from './context/AppContext';
 
 
 function Produtos (){
     
-        const [produtos, setProdutos] = useState([]);
-        const [load, setLoad] = useState (true)
-
-
+        const {produtos, setProdutos, load, setLoad} = useContext(AppContext)
+       
 
         useEffect(() => {
             Api('iphone').then((response) => {
@@ -28,6 +27,7 @@ function Produtos (){
             }
     
          </section> )
+         
            )
 
     
