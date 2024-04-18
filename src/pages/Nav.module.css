@@ -54,7 +54,8 @@
     .barra{
         width: 160px;
         gap: 1px;
-        color: white;
+        background-color: white;
+        color: black;
     }
 
     
