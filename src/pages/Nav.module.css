@@ -44,3 +44,22 @@
 
 }
 
+@media screen and (max-width: 480px) {
+    .container{
+       width: 100%;
+       display: flex;
+        
+    }
+
+    .barra{
+        width: 160px;
+        gap: 1px;
+    }
+
+    
+    
+  
+
+
+}
+
